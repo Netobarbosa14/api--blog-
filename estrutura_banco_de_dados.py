@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 # Criar uma instância de SQLAlchemy
 app.config['SECRET_KEY'] = 'FSD2323f#$!SAH'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:Y48mY&AJ3%gw42b@db.tkabwimroyfvzxyyeobm.supabase.co:5432/postgres'
 db = SQLAlchemy(app)
 
 # Definir a estrutura da tabela Autor
